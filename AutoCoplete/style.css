@@ -1,0 +1,211 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+body {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    left: 10px;
+    top: 0;
+    background: url(./assets/image1.svg);
+}
+
+.main {
+    display: flex;
+    position: absolute;
+    width: 1480px;
+    height: 688px;
+    left: 0;
+    top: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: rgba(36, 40, 44, 0.8);
+}
+
+.submain {
+    position: absolute;
+    width: 1480px;
+    height: 64px;
+    left: 0;
+    top: 0;
+    background: rgba(36, 40, 44, 0.8);
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 26px;
+    height: 26.29px;
+    left: 150px;
+    top: 21px;
+}
+
+.label {
+    display: flex;
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 190px;
+    top: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    letter-spacing: .05em;
+    color: #FFF;
+}
+
+.heading {
+    display: flex;
+    position: absolute;
+    width: 359px;
+    height: 121px;
+    left: 150px;
+    top: 188px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFF;
+}
+
+.para {
+    position: absolute;
+    width: 382px;
+    height: 100px;
+    left: 150px;
+    top: 341px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFF;
+}
+
+.loginForm {
+    position: absolute;
+    width: 450px;
+    height: 537px;
+    left: 840px;
+    top: 200px;
+    background: #FFF;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.08);
+    border-radius: 60px 0;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 50px 70px;
+    display: none;
+}
+
+.form-label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0 10px 0;
+}
+
+.form-input {
+    background: #FFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: .01em;
+    color: rgba(12, 7, 7, 0.33);
+    width: 322px;
+    height: 50px;
+}
+
+#submit {
+    background: #FE9A28;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .01em;
+    color: #FFF;
+    justify-content: center;
+    width: 322px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .01em;
+    color: rgba(12, 7, 7, 0.33);
+}
+
+#error {
+    color: #FE9A28;
+    margin: 0 20px 0 5px;
+}
+
+#login-image {
+    height: 250px;
+    width: 250px;
+    /* display: none; */
+}
+
+.loginSuccess {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 40px 0 40px 100px;
+}
+
+.rating-icon {
+    cursor: pointer;
+    color: grey;
+}
+
+.para1 {
+    margin-top: 10px;
+}
+
+.clicked {
+    color: #FE9A28;
+}
+
+.hidden {
+    display: none;
+}

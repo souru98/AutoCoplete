@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXIOS PRACTICE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="submain">
+                <img class="logo" src="./assets/logo.png" alt="logo">
+                <span class="label">CODEPRO</span>
+            </div>
+            <div class="heading">
+                For the Love of Coding
+            </div>
+            <p class="para">CODEPRO is built with a vision to help other ProGrads host and review code, manage projects and collaborate alongside 1 million ProGrads.
+            </p>
+            <div class="loginForm">
+                <form action="/submit">
+                    <label for="username" class="form-label">USERNAME</label>
+                    <input type="text" class="form-input" placeholder="Enter your Name">
+                    <label for="password" class="form-label">PASSWORD</label>
+                    <input type="password" class="form-input" placeholder="Enter your Password">
+                    <label for="message" class="form-label">MESSAGE</label>
+                    <input type="text" class="form-input" placeholder="Enter your Message">
+                    <input type="button" id="submit" value="Login to Enter" />
+                    <div class="error-message hidden">
+                        <i class="fa fa-user-times" id="error" aria-hidden="true"></i> No one’s here with that username!
+                    </div>
+                </form>
+                <div class="loginSuccess">
+                    <img id="login-image" src="https://miro.medium.com/max/5430/1*r1Av6G36gUGYh-Xrn79ncw.png" alt="IMAGE GOES HERE">
+                    <h3 id="login-name">WELCOME BLACK WIDOW</h3>
+                    <h4 id="login-message">MESSAGE GOES HERE</h4>
+                    <p class="para1">
+                        <div>Rate us to show your love</div>
+                        <i class="far fa-smile-wink"></i>
+                        <div id="star1" class="rating-icon fa fa-star"></div>
+                        <div id="star2" class="rating-icon fa fa-star"></div>
+                        <div id="star3" class="rating-icon fa fa-star"></div>
+                        <div id="star4" class="rating-icon fa fa-star"></div>
+                        <div id="star5" class="rating-icon fa fa-star"></div>
+                    </p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

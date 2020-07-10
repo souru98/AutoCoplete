@@ -1,0 +1,39 @@
+{
+    "avengers": {
+        "0": {
+            "name": "thor",
+            "password": "foo",
+            "message": "No Message Yet",
+            "profile-pic": "https://i.pinimg.com/originals/47/04/25/470425ea19c9e375656d6c2749134a89.png",
+            "rating": ""
+        },
+        "1": {
+            "name": "ironman",
+            "password": "bar",
+            "message": "No Message Yet",
+            "profile-pic": "https://pngimg.com/uploads/ironman/ironman_PNG44.png",
+            "rating": ""
+        },
+        "2": {
+            "name": "hulk",
+            "password": "baz",
+            "message": "No Message Yet",
+            "profile-pic": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hulk_%28circa_2019%29.png/250px-Hulk_%28circa_2019%29.png",
+            "rating": ""
+        },
+        "3": {
+            "name": "spiderman",
+            "password": "foobar",
+            "message": "No Message Yet",
+            "profile-pic": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjpk5TcieLnAhWu7nMBHX-xDiEQjRx6BAgBEAQ&url=https%3A%2F%2Fmarvelcinematicuniverse.fandom.com%2Fwiki%2FSpider-Man_Suit&psig=AOvVaw1RU_rafK7mnsCMHupzRp98&ust=1582354957486357",
+            "rating": ""
+        },
+        "4": {
+            "name": "blackwidow",
+            "password": "barbaz",
+            "message": "No Message Yet",
+            "profile-pic": "https://miro.medium.com/max/5430/1*r1Av6G36gUGYh-Xrn79ncw.png",
+            "rating": ""
+        }
+    }
+}
